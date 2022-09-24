@@ -1,4 +1,5 @@
 {
+  "homepage": "https://kleenpulse.github.io/landing_bank",
   "name": "hoobank",
   "private": true,
   "version": "0.0.0",
@@ -8,7 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages-d build"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "framer-motion": "^7.3.6",
